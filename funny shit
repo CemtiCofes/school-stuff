@@ -1,8 +1,17 @@
-#include "stdio.h"
+#include <iostream>
+using namespace std;
 
 int main()
 {
-    printf("pelawak handal");
+    //insert name here
+    cout << "Halo teman-teman\n";
+    cout << "ini C++ dengan library #include <iostream>\n";
+    cout << "yok kita lihat perbedaannya";
+    
+    string nama;
+    cout << "\nsiapa nama kamu? ";
+    cin>>nama;
+    cout << "\nJadi namamu "<<nama<<endl;
     
     return 0;
 }

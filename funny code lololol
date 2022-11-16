@@ -3,15 +3,23 @@ using namespace std;
 
 int main()
 {
-    //insert name here
-    cout << "Halo teman-teman\n";
-    cout << "ini C++ dengan library #include <iostream>\n";
-    cout << "yok kita lihat perbedaannya";
+    //Input number
+    int height,width,tall;
+    int volume;
     
-    string nama;
-    cout << "\nsiapa nama kamu? ";
-    cin>>nama;
-    cout << "\nJadi namamu "<<nama<<endl;
+    cout<<"p = ";
+    cin>>height;
+    cout<<"\nl = ";
+    cin>>width;
+    cout<<"\nt = ";
+    cin>>tall;
+    cout<<"============================\n\n";
+    
+    //Operaso
+    volume=height*width*tall;
+    
+    //Output volume
+    cout<<"jika panjang "<<height<<", lebar "<<width<<", dan tinggi "<<tall<<",\nMaka volume balok adalah "<<volume;
     
     return 0;
 }

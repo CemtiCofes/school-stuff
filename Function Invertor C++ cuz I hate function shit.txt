@@ -1,0 +1,20 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+    int konstA;
+    int konstB;
+    
+    cout<<"Function invertor, I guess\n\n========================\n";
+    cout<<"\n\nf\(x\) = ax + b";
+    cout<<"\nInsert a = ";
+    cin>>konstA;
+    cout<<"\nInsert b = ";
+    cin>>konstB;
+    cout<<"\n\nSo, the current funtion is\:\nf\(x\) = "<<konstA<<"x + "<<konstB;
+    cout<<"\n\nAnd the inverse function is\:\nf⁻¹\(x\) = 1/"<<konstA<<" \(x - "<<konstB<<"\)";
+    
+    return 0;
+}
